@@ -17,7 +17,7 @@ public class Obstacle : MonoBehaviour
     /// <summary>
     /// Movement speed of this obstacle.
     /// </summary>
-    public float movementSpeed = 1.0f;
+    public float movementSpeed = 10.0f;
     
     /// <summary>
     /// Direction of movement.
@@ -49,7 +49,9 @@ public class Obstacle : MonoBehaviour
     /// Update called once per frame.
     /// </summary>
     void Update()
-    { }
+    {
+
+    }
 
     /// <summary>
     /// Event triggered when we collide with something.

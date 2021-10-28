@@ -86,7 +86,8 @@ public class Spawner : MonoBehaviour
     {
         // Spawn the obstacle.
         var obstacle = Instantiate(obstaclePrefab, transform);
-
+        
+        
         // Move it to the target location.
         var spawnDown = RandomBool();
         obstacle.transform.position += (Vector3)(spawnDown ? 
